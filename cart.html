@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="img/logo2.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="inline"><a href="index.html" class="navbar-brand"><span class="nav_text"><img class="head_logo" src="img/logo2.png"/> </span><h1 class="inline">Khalifah design</h1></a> </span>
+                    
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"> Cart</span></a></li>
+                        <li><a href="products.html"><span class="glyphicon glyphicon-tags"> Products</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container tabl">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="table-responsive table-condensed table_style">
+                        <h1>Your Cart</h1>
+                        <table id='cart_id' class="table table-bordered table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                    <th>Item Number</th>
+                                    <th>Item Name</th>
+                                    <th>Price</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Plain white </td>
+                                    <td>₦ 10,000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Navy blue Camo tee </td>
+                                    <td>₦ 15,000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><b>40% Discount</b></td>
+                                    <td><b>Total</b></td>
+                                    <td>₦ 10,000</td>
+                                    <td><a href="success.html"><button class="btn btn-primary">Confirm Orders</button></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <center>
+                Copyright &copy Khalifah design 2021
+            </center>
+        </div>
+    </footer>
+
+</body>
+
+</html>
